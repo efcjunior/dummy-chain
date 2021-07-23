@@ -1,0 +1,32 @@
+{
+  "name": "dummy-chain",
+  "version": "1.0.0",
+  "description": "udem course build a blockchain and a cryptocurrency from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efcjunior/dummy-chain.git"
+  },
+  "keywords": [
+    "udemy",
+    "blockchain",
+    "cryptocurrency"
+  ],
+  "author": "efcjunior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/efcjunior/dummy-chain/issues"
+  },
+  "homepage": "https://github.com/efcjunior/dummy-chain#readme",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
