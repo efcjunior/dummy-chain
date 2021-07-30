@@ -4,7 +4,7 @@
   "description": "udem course build a blockchain and a cryptocurrency from scratch",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "jest --watchAll blockchain/",
     "dev-test": "nodemon dev-test.js"
   },
   "repository": {
