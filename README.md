@@ -26,3 +26,16 @@ Execute development tests which are into dev-test.js
   npm run dev-test
 </code>
 
+## Run Application
+
+* Start Blockchain Web Application. 
+
+<code>
+  npm run start
+ </code>
+ 
+ * Start Blockchain Web Application in development
+
+<code>
+  npm run dev
+</code>
