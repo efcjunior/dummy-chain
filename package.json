@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll blockchain/",
-    "dev-test": "nodemon dev-test.js"
+    "dev-test": "nodemon dev-test.js",
+    "start": "node ./app",
+    "dev": "nodemon ./app"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {
-    "crypto-js": "^4.1.1"
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.1"
   }
 }
