@@ -1,0 +1,16 @@
+
+Creating Websocket Server
+
+install ws 
+create p2p-server.js into app folder
+define const Websocket;
+define const P2P_PORT 5001
+define const peers = inicialize with process.env.PEERS, spliting by comma otherwise assign empty array
+define a class P2pServer
+- constructor with blockchain parameter
+- assign block to the instance variable blockcain
+- assign empty array to the sockets variable
+- define a method listen for creating Websocker.Server({port: P2P_PORT}) add a event listener 'connection' when fire up should call helper callback function this.connectSocket. In addition add a log with message: 'Listening for peer-to-peer connections on: p2pport
+-define connectSocket method whcih receives as parameter a socket and adds it to the sockets array. In addition add log 'Socket connected'
+
+-------------------------------------------------------------------------------------------------------------------------------------------

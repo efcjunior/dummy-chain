@@ -30,6 +30,7 @@ class Blockchain {
         } else if (!this.isValidChain(chain)) {
             return;
         }
+        console.log('Replacing blockchain with a new chain');
         this.chain = chain;
     }
 
