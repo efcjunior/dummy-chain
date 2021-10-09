@@ -11,6 +11,10 @@ define a class P2pServer
 - assign block to the instance variable blockcain
 - assign empty array to the sockets variable
 - define a method listen for creating Websocker.Server({port: P2P_PORT}) add a event listener 'connection' when fire up should call helper callback function this.connectSocket. In addition add a log with message: 'Listening for peer-to-peer connections on: p2pport
--define connectSocket method whcih receives as parameter a socket and adds it to the sockets array. In addition add log 'Socket connected'
+- define connectSocket method whcih receives as parameter a socket and adds it to the sockets array. In addition add log 'Socket connected'
 
 -------------------------------------------------------------------------------------------------------------------------------------------
+
+create a new connectToPeers method which will instance WebSocket object, passing as parameter each peer from sockets array.
+--Add an event 'open' listener for each peer, passing the connectSocket method as a callback function
+--Export module like module.exports = P2pServer;
