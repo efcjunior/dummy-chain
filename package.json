@@ -4,10 +4,13 @@
   "description": "udem course build a blockchain and a cryptocurrency from scratch",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll blockchain/",
+    "test": "jest --watchAll",
     "dev-test": "nodemon dev-test.js",
     "start": "node ./app",
     "dev": "nodemon ./app"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "repository": {
     "type": "git",
@@ -30,7 +33,9 @@
   },
   "dependencies": {
     "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4",
     "express": "^4.17.1",
+    "uuid": "^8.3.2",
     "ws": "^8.2.2"
   }
 }
