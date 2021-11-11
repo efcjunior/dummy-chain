@@ -21,7 +21,7 @@ app.get('/transactions', (req, res) => {
     res.json(tp.transactions);
 });
 
-app.get('git', (req, res) => {
+app.get('/public-key', (req, res) => {
     res.json({publicKey: wallet.publicKey});
 });
 
